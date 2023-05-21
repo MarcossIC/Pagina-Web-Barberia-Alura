@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style-normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style-header.css" />
+    <link rel="stylesheet" href="./css/style-contact.css" />
+    <link rel="stylesheet" href="./css/style-footer.css" />
+
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header class="center-elements">
+      <h1 class="logo-container">
+        <img class="logo" src="./images/logo.png" alt="logo" />
+      </h1>
+
+      <nav class="container-menu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./products.html">Product</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container-main center-elements">
+        <form class="">
+          <label for="fullname">Nombre y Apellido</label>
+          <input type="text" class="input-block"
+            id="fullname" name="fullname" required="true" placeholder="Nombre Completo"/>
+  
+          <label for="email">Correo Electronico</label>
+          <input type="email" class="input-block"
+            id="email" name="email" required="true" placeholder="email@dominio.com"/>
+  
+          <label for="cellphone">Telefono de contacto</label>
+          <input type="tel" class="input-block"
+            id="cellphone" name="cellphone" required="true" placeholder="(XX) XXXX-XXXX"/>
+  
+          
+          <label for="comment">Comentario</label>
+          <textarea class="input-block" cols="70" rows="10"
+              name="comment" id="comment"></textarea>
+  
+          <fieldset>
+              <legend>¿Como le gustaria que lo contactemos?</legend>
+              
+              <label for="whatsapp" class="contact">
+                  <input type="radio" id="whatsapp" name="contact" value="whatsapp" checked/>
+                  Whatsapp
+              </label><br>
+              
+              <label for="email" class="contact">
+                  <input type="radio" id="email" name="contact" value="email" />
+                  Email
+              </label><br>
+              
+              <label for="telefono" class="contact">
+                  <input type="radio" id="telefono" name="contact" value="telefono" />
+                  Telefono
+              </label>
+          </fieldset>
+          
+          <fieldset>
+            <legend>¿En que horario gustaria ser atendido?</legend>
+  
+            <select name="time" id="time">
+              <option value="mañana" selected="true">Mañana</option>
+              <option value="tarde">Tarde</option>
+              <option value="noche">Noche</option>
+            </select>
+          </fieldset>
+          
+          <label for="updates" class="checkbox">
+              <input type="checkbox" id="updates" name="updates" value="updates" checked/> 
+              ¿Le gustaria recibir novedades de la barberia X Cute?
+          </label>
+  
+  
+          <input class="" type="submit" value="Enviar" />
+        </form>
+
+        <table class="">
+          <thead>
+            <tr>
+              <th>Dia</th>
+              <th>Hora</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Lunes</td>
+              <td>08h - 20h</td>
+            </tr>
+  
+            <tr>
+              <td>Miercoles</td>
+              <td>08h - 20h</td>
+            </tr>
+  
+            <tr>
+              <td>Viernes</td>
+              <td>08h - 20h</td>
+            </tr>
+          </tbody>
+        </table>
+    </main>
+
+    <footer class="center-elements footer">
+      <img src="./images/logo-blanco.png" alt="logo-blanco" />
+      <p class="copyright">&copy; Copy Right - Barberia</p>
+    </footer>
+  </body>
+</html>

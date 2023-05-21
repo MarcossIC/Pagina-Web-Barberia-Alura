@@ -1,0 +1,15 @@
+.footer{
+    flex-direction: column;
+    width: 100%;
+    background-image: url(../images/bg.jpg);
+    color: white;
+    bottom: 0; /* Asegurarse que esté alineado al fondo */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.copyright{
+    color: white;
+    font-size: 10px;
+    margin: 20px;
+}

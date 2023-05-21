@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+header {
+    background-color: #a39d9d;
+    font-family: "Anonymous", sans-serif;
+}
+
+.logo-container{
+    margin-right: 35%;
+    margin-left: auto;
+    padding: 10px 0;
+   
+}
+.logo{
+    cursor: pointer; 
+}
+
+nav{
+    display: block;
+    width: 40%;
+    position: relative;
+}
+
+nav li{
+    display: inline;
+    margin-right: 22px;
+}
+
+nav a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+
+    transition: all 0.2s ease 0s;
+}
+
+nav a:hover{
+    color: #e9a51e;
+    text-decoration: underline;
+}
